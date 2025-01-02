@@ -1,0 +1,45 @@
+[
+  {
+    "key": "NAME",
+    "name": "Name",
+    "type": "text",
+    "required": true,
+    "validation":{
+        "pattern": "^[a-zA-Z ]+$",
+        "message": "Name should contain only alphabets"
+    }
+
+  },
+  {
+    "key": "EMAIL",
+    "name": "Email",
+    "type": "email",
+    "required": true,
+    "validation":{
+        "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+        "message": "Invalid Email"
+    }
+  },
+  {
+    "key": "PHONE_NUMBER",
+    "name": "Phone Number",
+    "type": "text",
+    "required": true,
+    "validation":{
+        "pattern": "^[0-9]{10}$",
+        "message": "Invalid Phone Number"
+    }
+  },
+  {
+    "key": "SET_PASSWORD",
+    "name": "Set Password",
+    "type": "password",
+    "required": true
+  },
+  {
+    "key": "CONFIRM_PASSWORD",
+    "name": "Confirm Password",
+    "type": "password",
+    "required": true
+  }
+]
