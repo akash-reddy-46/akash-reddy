@@ -120,7 +120,7 @@ const htmlContent = `<!DOCTYPE html>
       <h2>Verify Your Login</h2>
       <p>Please use the following OTP to complete your verification process.</p>
       <div class="otp-code">{{OTP}}</div>
-      <p class="note">This OTP is valid for 10 minutes only. Do not share it with anyone.</p>
+      <p class="note">This OTP is valid for 1 minutes only. Do not share it with anyone.</p>
     </div>
 
     <div class="footer">

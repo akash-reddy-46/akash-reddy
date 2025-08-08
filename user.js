@@ -1,9 +1,15 @@
 const express = require("express");
 const authRouter = require("./app/modules/user/auth/routes");
 
+
+const {connectDB} =require("./app/shared/database/db")
+
+
 const port = 3000;
 const app = express();
 
+
+connectDB()
 // Middleware to parse JSON requests
 app.use(express.json());
 
